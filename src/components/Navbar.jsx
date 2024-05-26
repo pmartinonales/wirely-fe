@@ -2,11 +2,11 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-primary p-6">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Wirely</h1>
+        <h1 className="text-2xl font-bold text-white">My SaaS Platform</h1>
         <div>
-          <a href="#contact" className="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">
+          <a href="#contact" className="text-white font-semibold py-2 px-4 rounded hover:text-accent">
             Contact Us
           </a>
         </div>
